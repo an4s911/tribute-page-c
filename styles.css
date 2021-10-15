@@ -35,7 +35,7 @@ header {
     line-height: 2rem;
 }
 
-.history article, .applications {
+.history article, .tops {
     margin: 1rem;
     padding: 0;
     border-radius: 25px;
@@ -44,7 +44,7 @@ header {
     border: 0.5px solid rgb(238, 170, 122);
 }
 
-.history article h3, .applications h3 {
+.history article h3, .tops h3 {
     background-color: chocolate;
     color: cornsilk;
     font-size: xx-large;
@@ -52,25 +52,25 @@ header {
     text-align: center;
 }
 
-.history article p, .applications ul, .applications p {
+.history article p, .tops ul, .tops p {
     padding: 45px;
     font-size: x-large;
     line-height: 2rem;
 }
 
-.history article p:nth-child(2n), .applications ul {
+.history article p:nth-child(2n), .tops ul {
     background-color: cornsilk;
     color: chocolate;
     padding-right: 35%;
 }
 
-.history article p:nth-child(2n+1), .applications p {
+.history article p:nth-child(2n+1), .tops p {
     background-color: chocolate;
     color: cornsilk;
     padding-left: 35%;
 }
 
-.applications p, .applications ul {
+.tops p, .tops ul {
     padding: 45px;
 }
 
@@ -86,4 +86,5 @@ header {
 footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
 }
